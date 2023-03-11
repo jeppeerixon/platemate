@@ -1,0 +1,89 @@
+/* egna scss för alla dessa + en standard variabel? */
+
+@mixin basic-plate {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 4px 1px black;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+
+
+.plate25 {
+    @include basic-plate;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+  }
+  
+  .plate20 {
+    @include basic-plate;
+    background-color: blue;
+    width: 180px;
+    height: 40px;
+  }
+  
+  .plate15 {
+    @include basic-plate;
+    background-color: #FEBE10;
+    width: 180px;
+    height: 40px;
+    color: black;
+  }
+  
+  .plate10 {
+    @include basic-plate;
+    background-color: green;
+    width: 160px;
+    height: 30px;
+    
+  }
+  
+  .plate5 {
+    @include basic-plate;
+    background-color: whitesmoke;
+    width: 125px;
+    color: black;
+  }
+  
+  .plate250 {
+    @include basic-plate;
+    background-color: lightcoral;
+    width: 100px;
+    color: black;
+  }
+  
+  .plate200 {
+    @include basic-plate;
+    background-color: #7CB9E8;
+    width: 75px;
+    color: black;
+  }
+  
+  .plate150 {
+    @include basic-plate;
+    background-color: #F0E68C;
+    width: 75px;
+    color: black;
+  }
+  
+  .plate100 {
+    @include basic-plate;
+    background-color: darkgrey;
+    width: 75px;
+    color: black;
+  }
+  
+  .plate50 {
+    @include basic-plate;
+    background-color: lightsalmon;
+    width: 75px;
+    color: black;
+  }
