@@ -5,8 +5,14 @@ function Resultinfo(props:
         <>
             <h3>{props.name}</h3>
             <div className='resultTextInfo'>
-                <span>Totalvikt: {props.weight} KG</span>
-                <span>Barvikt: {props.bartype} KG</span>
+                <div>
+                    <span>TOTAL WEIGHT</span>
+                    <span>{props.weight} KG</span>
+                </div>
+                <div>
+                    <span>PLATE WEIGHT</span>
+                    <span>{props.weight - props.bartype} KG</span>
+                </div>
             </div>
         </>
     )

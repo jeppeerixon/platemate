@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import * as logic from '../logic'
 import Resultinfo from './Resultinfo';
+import Barinfo from './Barinfo';
 
 function Result( props:
   { weight: number, bartype: number, platetype: number, name: number,} ) {
@@ -50,7 +51,9 @@ function Result( props:
 
           <div className="platesDiv"> 
             {resultList.reverse()}
-          </div>        
+          </div>
+
+        <Barinfo bartype={props.bartype} />        
 
         </div>
       </>

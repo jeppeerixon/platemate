@@ -7,7 +7,7 @@ export const YELLOW_15KG_PLATE: number = 15;
 export const GREEN_10KG_PLATE: number = 10;
 
 export const plateArray: Array<number> = [RED_25KG_PLATE, BLUE_20KG_PLATE, YELLOW_15KG_PLATE, GREEN_10KG_PLATE]
-export const plateTypeName: Array<string> = ["Optimized", "BLUE PLATES", "WHY YELLOW?", "THE SHOW OFF"]
+export const plateTypeName: Array<string> = ["OPTIMIZED", "BLUE PLATES", "YELLOW?", "MAXIMUM"]
 
 export const COUNT_ONE_SIDE_ONLY: number = 2;
 

@@ -6,10 +6,10 @@ function Header() {
       <>
         <header>
           <h1>
-            PLATE MATE
+            PLATEMATE
           </h1>
         
-          <img className='logo' src={logo} />
+          <img className='logo' src={logo}/>
           
         </header>
       </>
