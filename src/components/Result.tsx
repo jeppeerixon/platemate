@@ -51,9 +51,7 @@ function Result( props:
 
           <div className="platesDiv"> 
             {resultList.reverse()}
-          </div>
-
-        <Barinfo bartype={props.bartype} />        
+          </div>    
 
         </div>
       </>
